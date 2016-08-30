@@ -4,7 +4,7 @@ import random
 
 __author__ = 'Dan Alexander'
 __email__ = 'lxndrdagreat@gmail.com'
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 
 def coord_to_1d_index(x, y, width):

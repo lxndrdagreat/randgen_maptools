@@ -3,6 +3,8 @@
 
 from setuptools import setup
 
+import randgen_maptools
+
 with open('README.rst') as readme_file:
     readme = readme_file.read()
 
@@ -20,7 +22,7 @@ test_requirements = [
 
 setup(
     name='randgen_maptools',
-    version='0.1.1',
+    version='randgen_maptools.__version__',
     description="Core map tools for randgen.io map generators.",
     long_description=readme + '\n\n' + history,
     author="Dan Alexander",
