@@ -20,7 +20,7 @@ test_requirements = [
 
 setup(
     name='randgen_maptools',
-    version='0.1.0',
+    version='0.1.1',
     description="Core map tools for randgen.io map generators.",
     long_description=readme + '\n\n' + history,
     author="Dan Alexander",
